@@ -1,0 +1,5 @@
+#List all users
+curl -i -H "Content-Type: application/json" -X GET localhost:80/users
+
+$Add a new User
+curl -i -H "Content-Type: application/json" -X POST -d '{"name":"Aamir"}' localhost:80/users
